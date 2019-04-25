@@ -4,6 +4,6 @@ function func1(arr, gender) {
 
 function func2(arr, obj) {
     let newArr = arr.slice();
-    newArr.push(obj);
+    newArr.splice(2,1, obj);
     return newArr;
 }
